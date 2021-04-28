@@ -5,5 +5,5 @@ Our team members are:
 - Shawkatullah (FA18-BSE426)
 - AbdulRaziq (FA18-BSE-407)
 - Hafizullah (FA18-BSE-405)
-
+- Nouman Ahmadi (FA18-BSE-406)
 Link to the Page (Demo): https://sesartaj.github.io/wt-a2/
