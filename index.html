@@ -7,22 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WT Assignment 2</title>
     <script src="jquery3.6-dev.js"></script>
-
+    
     <style>
+
         /* div {
             border: 1px solid yellow;
         } */
+        .c-container {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: space-between;
+        }
     </style>
 
 
 </head>
 <body>
     
-    <div class="container">
+    <div class="c-container">
+    <div class="container " >
         <div class="row mt-5">
             <h1 class="text-center">Web Technologies | Comsats lahore</h1>
         </div>
-        <div class="row mt-5 justify-content-around">
+        <div class="row mt-5 justify-content-around" >
             <div class="c-list col-md-7 border mb-5">
                 <div class="table-responsive p-3 ">
                     <table class="table table-hover">
@@ -75,7 +83,7 @@
                     <div class="mb-3">
                         <label for="inputCity" class="form-label">City</label>
                         <select class="form-select" id="inputCity" name="inputCity" aria-label="Default select example" required>
-                            <option selected value="">Open this select menu</option>
+                            <option selected value="">City</option>
                             <option value="Lahore">Lahore</option>
                             <option value="Islamabad">Islamabad</option>
                             <option value="Peshawer">Peshawer</option>
@@ -91,14 +99,23 @@
                 </form>
             </div>
         </div>
+    </div>
 
-        <footer class="row footer">
-            Our team members are: 
-            - Sartaj Ahmad (FA18-BSE-402)
-            - Shawkatullah (FA18-BSE426)
-            - AbdulRaziq (FA18-BSE-407)
-            - Hafizullah (FA18-BSE-405)
+    <div class="container-fluid ">
+        <footer class="row">
+            <div class="d-flex mt-5 p-5 mb-0 justify-content-center align-items-center bg-dark text-white w-100">
+                <p class="text-center">
+                    Made with &#10084;&#65039; by: 
+                    AbdulRaziq (FA18-BSE-407) | 
+                    Hafizullah (FA18-BSE-405) |  
+                    Sartaj Ahmad (FA18-BSE-402) |  
+                    Shawkatullah (FA18-BSE426)  | 
+                </p>
+            </div>
         </footer>
+    </div>
+
+
     </div>
 
     <script>
